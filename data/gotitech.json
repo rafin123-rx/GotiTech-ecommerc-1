@@ -1,0 +1,97 @@
+{
+  "nextUserId": 3,
+  "nextOrderNumber": 1002,
+  "users": [
+    {
+      "id": 1,
+      "name": "GotiTech Admin",
+      "phone": "01849194982",
+      "password_hash": "$2a$10$PwOn5RCOjg0ObmfMuZdUBuUhtkcYK52GFhd07KkEO0qglZdGY9H3u",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "rubab",
+      "phone": "01726986585",
+      "password_hash": "$2a$10$3D0GOszioRPw1fctXSnc5OqZZc2g8Jz3Ef2zddR3WXOQyCZJr.2gi",
+      "role": "customer"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "S10 MAX Smart Watch",
+      "category": "Smart Watch",
+      "price": 700,
+      "oldPrice": 990,
+      "stock": 19,
+      "badge": "30% OFF"
+    },
+    {
+      "id": 2,
+      "name": "BW9 Pro Global",
+      "category": "Smart Watch",
+      "price": 1050,
+      "oldPrice": 1450,
+      "stock": 15,
+      "badge": "NEW"
+    },
+    {
+      "id": 3,
+      "name": "T900 Ultra",
+      "category": "Smart Watch",
+      "price": 850,
+      "oldPrice": 1200,
+      "stock": 25,
+      "badge": "HOT DEAL"
+    },
+    {
+      "id": 4,
+      "name": "AirBass Pro Earbuds",
+      "category": "Audio",
+      "price": 850,
+      "oldPrice": 1200,
+      "stock": 30,
+      "badge": "TRENDING"
+    },
+    {
+      "id": 5,
+      "name": "Power Mini 10000mAh",
+      "category": "Accessories",
+      "price": 990,
+      "oldPrice": 1300,
+      "stock": 18,
+      "badge": "POPULAR"
+    },
+    {
+      "id": 6,
+      "name": "Flex Mini Speaker",
+      "category": "Audio",
+      "price": 650,
+      "oldPrice": 850,
+      "stock": 22,
+      "badge": "LIMITED"
+    }
+  ],
+  "orders": [
+    {
+      "id": "GT-1001",
+      "customer_name": "rubab",
+      "phone": "01726986585",
+      "district": "uttara dhaka",
+      "address": "uttara",
+      "user_id": 2,
+      "items": [
+        {
+          "id": 1,
+          "name": "S10 MAX Smart Watch",
+          "price": 700,
+          "qty": 1
+        }
+      ],
+      "total": 700,
+      "status": "Pending",
+      "created_at": "2026-08-26T18:24:29.179Z"
+    }
+  ]
+}
